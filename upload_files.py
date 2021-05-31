@@ -6,9 +6,9 @@ from Correlation_of_two_files import count_correlation
 app = Flask(__name__)
 
 
-@app.route('/correlation/<first_file> and <second_file>')
-def correlation(first_file, second_file):
-    correlation_data = count_correlation(first_file, second_file)
+@app.route('/correlation/<first_filename> and <second_filename>')
+def correlation(first_filename, second_filename):
+    correlation_data = count_correlation(first_filename, second_filename)
     return correlation_data
 
 
