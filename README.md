@@ -10,9 +10,9 @@ back-end сайта для проверки корреляции двух чис
 - для загрузки файла (загрузка осуществляется по одному файлу)
 > /upload_files 
 - для просмотра содержимого загруженного файла 
-> /files_data/<filename>
+> /files_data/<your_filename>
 - для подсчета корреляции между наборами чисел 
-> /correlation/<first_file> and <second_file>
+> /correlation/<first_filename.txt> and <second_filename.txt>
 
 Установка 
 -
