@@ -12,7 +12,7 @@ back-end сайта для проверки корреляции двух чис
 - для просмотра содержимого загруженного файла 
 > /files_data/<your_filename>
 - для подсчета корреляции между наборами чисел 
-> /correlation/<first_file> and <second_file>
+> /correlation/<first_filename.txt> and <second_filename.txt>
 
 Установка 
 -
